@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/static/images/peter-gargiulo-cGNCepznaV8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.imge{
+  height: 500px;
+  width: 500px;
+}
+h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-size: 90px;
+    font-family: cursive;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    color: #ffffff;
+    font-family: cursive;
+    padding-left: 5px;
+    font-size: 30px;
+    padding-top: 200px;
+}
+
+.button {
+  /* display: flex;
+  justify-content: center; */
+  /* align-items: center; */
+  padding: 6px 12px;
+  gap: 8px;
+  height: 34px;
+  width: 112px;
+  border: none;
+  background: #ff362b34;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.lable {
+  line-height: 20px;
+  font-size: 17px;
+  color: #FF342B;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #ff362b52;
+}
+
+.button:hover .svg-icon {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}

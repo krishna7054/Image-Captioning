@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/static/images/peter-gargiulo-cGNCepznaV8-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+h1 {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 90px;
+    font-family: cursive;
+}
+
+h3 ,li{
+    color: #ffffff;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+   
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+        border: #ffffff dotted 2px;
+}
+
+/* button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+} */
+/* From uiverse.io by @Ali-Tahmazi99 */
+button {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: cursive;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    /* box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff; */
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 9em;
+   }
+
+  

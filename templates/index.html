@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div>
+    <img src="static/images/fun-3d-illustration-cartoon-teenage-girl-with-rain-gear-removebg-preview.png"></img>
+        </div>
+        <div>
+    <h1>Upload Image</h1>
+    <h3>Please follow these instructions for uploading your image:</h3>
+    <ul>
+        <li>Click the "Choose File" button below.</li>
+        <li>Select the image file you want to upload. Supported formats: .jpg</li>
+        <li>Click the "Upload" button to submit your image.</li>
+    </ul>
+   
+    <form action="/upload" method="post" enctype="multipart/form-data">
+       
+        <input type="file" name="file" accept=".jpg" required>
+        <button class="button" type="submit">Upload</button>
+    </form>
+</div>
+</div>
+</body>
+</html>
